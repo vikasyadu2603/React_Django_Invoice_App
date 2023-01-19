@@ -282,7 +282,7 @@ const InvoiceTable = () => {
                 <Option value={items.customer_name}>{items.customer_name}</Option>
               ))}
             </Select>&nbsp;&nbsp;&nbsp;&nbsp;
-            <Button onClick={getInvoice()} type="primary">Reset</Button>
+            <Button onClick={getInvoice} type="primary">Reset</Button>
            <br/>  <br/>
             <Table columns={columns} dataSource={Invoice} style={{ width: 750, marginLeft: "auto", marginRight: "auto" }} />
           </Card>
